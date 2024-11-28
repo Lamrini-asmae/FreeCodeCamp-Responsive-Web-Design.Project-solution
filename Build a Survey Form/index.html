@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  </header>
+  <link rel="stylesheet" href="style.css"> 
+  </header>
+  
+  <body>
+    <div id="background"></div>
+          <h1 id="title" align="center">Student Survey Form</h1>
+          <p id="description" align="center">Thank you for taking the time to help us improve the service
+          </p>
+      <form id="survey-form">
+      <label class="" for"name" id="name-label">Name:
+        </label> <br>
+        <input id="name" class="inputs shadow" name="name"              				placeholder="Name" value="email" required>
+        </input>
+      
+      <div class="line"></div>
+        <label class="" for="email" id="email-label">Email:
+         </label> <br>    
+       <input id="email" class="inputs shadow" type="email" name="email" placeholder="Valid email address" required >
+        </input>
+      <div class="line"></div>
+  		
+        <label class="" for="number" id="number-label" name="number">Age:			</label><br>
+        <input id="number" class="inputs shadow" type="number" min="1"               max="100" placeholder="Age">
+        </input>
+     
+        <div class="line"></div>
+
+      <a class=""><p>Country:</p></a>
+        <select id="dropdown" class="inputs shadow">
+        <option value="France">France</option>
+        <option value="Morocco">Morocco</option>
+        <option value="Turkey">Turkey</option>
+        </select>
+        <div class="line"></div>
+      <br> <br>
+      <field>
+          <a class="selector"> Gender: </a><div class=""></div>
+          <input class="check" name="Language" type="radio" value="en">Male</input> <br>
+          <input class="check" name="Language" type="radio" value="bg">Female</input>  
+    </field> <br> <br> <br> <br>   
+      <field class="field">
+        <a class="selector">Interested in:</a><div class=""></div>
+        <input class="check" type="checkbox" value="web-development" > Web development</input><br>
+        <input class="check" type="checkbox" value="software-engineering"> Software engineering</input> <br>
+        <input class="check" type="checkbox" value="game-development" > Game development</input>
+      </field > <br> <br> <br> <br>
+      <field class="field">
+        What do you like / Don't like about our program?
+        <div class=""></div>
+        <textarea placeholder="Enter your recommendation here:" required></textarea> <br> <br>
+      </field>
+  
+      <button id="submit"> Submit Form</button>
+    </form>
+  </body>
+</html>
